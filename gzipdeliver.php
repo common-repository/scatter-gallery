@@ -1,0 +1,1 @@
+<?php require_once('functions.php');if(isset($_GET['file'])){$v432356553_1=f417737890_21($_GET['file']);f2046299605_16($v432356553_1,($_GET['cacheonly']=='true'?true:false));$v432356553_1=null;}else{echo "ERROR";} ?>

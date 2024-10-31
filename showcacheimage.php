@@ -1,0 +1,1 @@
+<?php require_once('functions.php');if(isset($_GET['image'])){$src=f417737890_21($_GET['image']);if(file_exists('./'.$src)){if($v1559217307_1=fopen('./'.$src,"rb")){while(!feof($v1559217307_1)){echo fread($v1559217307_1,filesize('./'.$src));} fclose($v1559217307_1);}}} ?>
